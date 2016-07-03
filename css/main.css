@@ -1,0 +1,652 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Navigation Section */
+.firstBox {
+	background-color: #a8d4dd;
+	padding-top: 380px;
+}
+
+.firstBox nav ul {
+	float: right;
+	position: relative;
+	margin-right: 220px;
+	bottom: 340px;
+
+}
+
+.firstBox nav ul a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif; 
+	color: #374b4e;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.firstBox nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.firstBox nav h3 {
+	position: relative;
+	bottom: 340px;
+	margin-left: 265px;
+}
+
+.firstBox nav i {
+	position: relative;
+	bottom: 367px;
+	margin-left: 220px;
+}
+
+.secondBox h1 {
+	position: relative;
+	text-align: center;
+	width: 24%;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-size: 35px;
+	bottom: 265px;
+	margin-left: 230px;
+}
+
+.secondBox img {
+	position: relative;
+	float: right;
+	bottom: 410px;
+	right: 290px; 
+}
+
+.secondBox img.resize {
+	width: 25%;
+	height: 25%;
+}
+
+.itemBox ul {
+	position: relative;
+	float: left;
+	margin-left: 120px;
+	bottom: 250px;
+
+}
+
+.itemBox ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 110px;
+}
+
+.itembox ul li img {
+	position: relative;
+}
+
+.itemBox ul li img.resize {
+	width: 150px;
+}
+
+.itemBox ul li img.resize2 {
+	position: relative;
+	width: 90px;
+	height: 130px;
+	left: 33px;
+	top: 5px;
+}
+
+.itemBox ul li img.resize3 {
+	position: relative;
+	width: 150px;
+	height: 120px;
+}
+
+.itemBox img.iphoneimg {
+	position: relative;
+	width: 90px;
+	height: 70px;
+	left: 318px;
+	top: 67px;
+}
+
+.itemBox ul li h3 {
+	position: relative;
+	right: 30px;
+	top: 20px;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.itemBox ul li p {
+	position: relative;
+	top: 30px;
+	right: 30px;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+/* Recent Works Section */
+.recentWorks {
+	margin-top: 240px;
+	padding-top: 800px;
+	background-color: #97d0a3;
+}
+
+.recentWorks h2 {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 35px;
+	bottom: 750px;
+	letter-spacing: 3px;
+}
+
+.recentWorks p {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 13px;
+	bottom: 740px;
+}
+
+.recentWorks ul {
+	position: relative;
+	bottom: 675px;
+	left: 345px;
+	width: 50%;
+}
+
+.recentWorks ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.recentWorks ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.recentWorks ul li a:hover {
+	border: 2px solid white;
+	border-radius: 5px;
+	border-color: white;
+	padding: 3px 5px;
+	cursor: pointer;
+}
+
+.recentWorks ul li a:active {
+	background-color: white;
+	color: #97d0a3;
+}
+
+/* Images */
+.images ul {
+	position: relative;
+	bottom: 650px;
+	width: 80%;
+	left: 160px;
+
+}
+
+.images ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.images ul li img {
+	position: relative;
+}
+
+.images img.resize {
+	width: 260px;
+	height: 180px;
+}
+
+.images a {
+	position: relative;
+	bottom: 560px;
+	left: 570px;
+	width: 7%;
+	color: grey;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	padding: 15px 17px;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Windows */
+.thirdBox {
+	margin-top: -467px;
+	background-color: #f1f1f1;
+	padding-top: 90px;
+	bottom: 466px;
+}
+
+/* Top Box */
+.thirdBox .winboxTop {
+	margin-top: 30px;
+}
+
+.thirdBox .winboxTop img {
+	position: relative;
+	bottom: 50px;
+	left: 250px;
+}
+
+.thirdBox .winboxTop h3 {
+	position: relative;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	left: 510px;
+	bottom: 208px;
+	width: 25%;
+}
+
+.thirdBox .winboxTop p {
+	position: relative;
+	width: 40%;	
+	left: 510px;
+	bottom: 195px;
+	font-weight: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+.thirdBox .winboxTop  a {
+	position: relative;
+	bottom: 158px;
+	left: 510px;
+	width: 7%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	padding: 15px 17px;
+	background-color: #97d0a3;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.thirdBox hr {
+	position: relative;
+	width: 60%;
+	bottom: 80px;
+	left: 250px;
+}
+
+/* Bottom Box */
+.thirdBox .winboxBottom {
+	margin-top: 10px;
+}
+
+.thirdBox .winboxBottom img {
+	position: relative;
+	bottom: 20px;
+	left: 820px;
+}
+
+.thirdBox .winboxBottom h3 {
+	position: relative;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	left: 250px;
+	bottom: 187px;
+	width: 25%;
+}
+
+.thirdBox .winboxBottom p {
+	position: relative;
+	width: 40%;	
+	left: 250px;
+	bottom: 173px;
+	font-weight: normal;
+	font-size: 13px;
+	text-align: left;
+}
+
+.thirdBox .winboxBottom  a {
+	position: relative;
+	bottom: 135px;
+	left: 250px;
+	width: 7%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	padding: 15px 17px;
+	background-color: #9cd1d7;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Meet Our Team Section */
+.pinkBox {
+	background-color: #e1b6c7;
+	padding-top: 100px;
+}
+
+.pinkBox h2 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 35px;
+	bottom: 50px;
+	letter-spacing: 3px;
+}
+
+.pinkBox p {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 13px;
+	bottom: 40px;
+}
+
+.pinkBox ul {
+	position: relative;
+	width: 80%;
+	left: 140px;
+	margin-top: 60px;
+}
+
+.pinkBox ul li {
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.pinkBox ul li.userBox img {
+	position: relative;
+	background-color: white;
+	padding-bottom: 200px;
+
+}
+
+.pinkBox ul li.userBox img.resize {
+	width: 250px;
+	height: 180px;
+
+}
+
+.pinkBox ul li.userBox h3 {
+	position: relative;
+	text-align: center;
+	bottom: 180px;
+	font-size: 25px;
+}
+
+.pinkBox ul li.userBox h4 {
+	position: relative;
+	text-align: center;
+	bottom: 180px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+}
+
+.pinkBox ul li.userBox p.profile {
+	position: relative;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	color: gray;
+	width: 70%;
+	bottom: 170px;
+	left: 40px;
+}
+
+.pinkBox ul li.userBox i {
+	position: relative;
+	display: inline-block;
+	bottom: 150px;
+	margin-left: 30px;
+	left: 23px; 
+}
+
+.pinkBox ul li.userBox i.fa-facebook {
+	color: #283fa7;
+} 
+
+.pinkBox ul li.userBox i.fa-twitter {
+	color: #26a5fa;
+}
+
+.pinkBox ul li.userBox i.fa-pinterest {
+	color: #b81f3b;
+}
+
+/* Recent Posts Section */
+
+.blueBox {
+	background-color: #b4d5e1;
+	padding-top: 300px;
+}
+
+.blueBox h2 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 35px;
+	bottom: 250px;
+	letter-spacing: 3px;
+}
+
+.blueBox p {
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-weight: normal;
+	font-size: 13px;
+	bottom: 240px;
+}
+
+.blueBox ul {
+	position: relative;
+	width: 80%;
+	left: 140px;
+	bottom: 140px;
+}
+
+.blueBox ul li {
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+.blueBox ul li.postBox img {
+	position: relative;
+	background-color: white;
+	padding-bottom: 145px;
+
+}
+
+.blueBox ul li.postBox img.resize {
+	width: 250px;
+	height: 170px;
+
+}
+
+.blueBox ul li.postBox h3 {
+	position: relative;
+	text-align: center;
+	bottom: 150px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.blueBox ul li.postBox h4 {
+	position: relative;
+	text-align: center;
+	bottom: 150px;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	line-height: 25px;
+}
+
+.blueBox ul li.postBox p.profile {
+	position: relative;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	color: gray;
+	width: 70%;
+	bottom: 140px;
+	left: 40px;
+}
+
+.blueBox a {
+	position: relative;
+	top: 310px;
+	left: 570px;
+	width: 7%;
+	color: #b4d5e1;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 17px;
+
+}
+
+.contact {
+	background-color: #3b3b3b;
+	padding-top: 400px;
+}
+
+.contact form h2 {
+	position: relative;
+	text-align: center;
+	color: #cdcbcc;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	font-size: 35px;
+	bottom: 350px;
+	letter-spacing: 3px;
+}
+
+.contact form p {
+	position: relative;
+	text-align: center;
+	color: #cdcbcc;
+	font-weight: normal;
+	font-size: 13px;
+	bottom: 340px;
+}
+
+.contact form input {
+	position: relative;
+	display: block;
+	line-height: 40px;
+	width: 30%;
+	bottom: 280px;
+	left: 450px; 	
+	margin-top: 20px;
+	border-radius: 7px;
+	text-indent: 30px;
+}
+
+.contact form textarea {
+	position: relative;
+	display: block;
+	line-height: 40px;
+	width: 30%;
+	bottom: 280px;
+	left: 450px; 	
+	margin-top: 20px;
+	border-radius: 7px;
+	text-indent: 30px;
+}
+
+.contact form a {
+	position: relative;
+	left: 605px;
+	top: 20px;
+	width: 7%;
+	color: #3b3b3b;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px 17px;
+}
+
+.contact hr {
+	position: relative;
+	width: 60%;
+	left: 250px;
+	bottom: 130px;
+}
+
+footer .socialmedia {
+	position: relative;
+	bottom: 50px;
+	margin-left: 430px;
+	margin-top: -33px;
+}
+
+footer .socialmedia a {
+	text-decoration: none;
+	margin-left: 60px;
+}
+
+footer .socialmedia i {
+	position: relative;
+	color: pink;
+}
+
+footer h4 {
+	position: relative;
+	float: left;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 12px;
+	text-indent: 30px;
+	color: white;
+}
+
+footer h4 span {
+	color: pink;
+}
+
+
+
